@@ -1,0 +1,92 @@
+p-button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+  background-color: #EDF2FE;
+}
+
+.login-box {
+  width: 321px;
+  padding: 32px;
+  background: #FFF;
+  border-radius: 6px;
+  border: 1px solid #DDDDDD;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+h2.nome_quadro {
+  color: black;
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.card {
+  background: #FFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  color: #1E1F24;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.input-field {
+  padding: 14px;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+.nome_final_form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.nome_final_form p {
+  color: black;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+#p2 {
+  color: #3657C3;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+<div class="login-container">
+  <div class="login-box">
+    <h2 class="nome_quadro">Acesso</h2>
+    <form (ngSubmit)="login()">
+      <div class="card">
+        <div class="form-group">
+          <label for="usuario">Usuário</label>
+          <input pInputText id="usuario" [(ngModel)]="usuario" type="text" required placeholder="Insira seu usuário" name="usuario"/>
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input id="senha" class="input-field" type="password" [(ngModel)]="senha" required placeholder="Insira sua senha" name="senha"/>
+        </div>
+      </div>
+      <p-button type="submit">Acessar</p-button>
+      <div class="nome_final_form">
+        <p>Não tem uma conta?</p>
+        <p id="p2" (click)="goToRegister()" type="submit">Registre-se</p>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="register-container">
+  <div class="register-box">
+    <h2 class="nome_quadro">Registre-se</h2>
+    <form (ngSubmit)="onSubmit(registerForm)" #registerForm="ngForm">
+      <div class="card">
+        <div class="form-group">
+          <label for="fullName">Nome completo</label>
+          <input id="fullName" [(ngModel)]="fullName" type="text" placeholder="Insira seu nome completo" name="fullName" ngModel required />
+        </div>
+        <div class="form-group">
+          <label for="username">Login</label>
+          <input id="username" [(ngModel)]="username" type="text" placeholder="Insira seu login" name="username" ngModel required />
+        </div>
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input id="password" [(ngModel)]="password" type="password" placeholder="Insira sua senha" name="password" ngModel required />
+        </div>
+      </div>
+      <div class="button-container">
+        <p-button type="submit">Registrar</p-button>
+        <p-button (click)="goToHome()" type="button">Voltar</p-button>
+      </div>
+    </form>
+  </div>
+</div>

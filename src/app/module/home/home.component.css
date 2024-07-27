@@ -1,0 +1,258 @@
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.card2 {
+  display: flex;
+  margin: 0 10px;
+  padding: 0;
+  border-radius: 8px;
+  color: #ffffff; /* Cor do texto */
+}
+
+.card {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+.neutral-card {
+  background-color: #e0e0e0;
+  color: #000000;
+}
+
+body {
+  background-color: #EDF2FE;
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #E0E0E0;
+  padding: 8px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #3657c3;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+:host ::ng-deep .p-button {
+  padding: 10px;
+  background-color: #3657c3;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.home-container {
+  margin: 20px;
+  height: 89vh;
+}
+
+.table-container {
+  margin-top: 20px;
+  padding: 0 9px
+}
+
+.menu-estoque #nome_logo {
+  background-color: #3657c3;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .p-button {
+  border-radius: 15px;
+}
+
+.logout-button {
+  margin-left: auto;
+}
+
+.custom-dialog {
+  width: 50vw;
+  padding: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border: 1px #DDDDDD solid;
+  background-color: #FFFFFF;
+}
+
+.dialog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  color: #333333;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.form-input, .form-select {
+  padding: 14px;
+  background: #F9F9F9;
+  border-radius: 6px;
+  border: 1px #DDDDDD solid;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-submit {
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.btn-close {
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.custom-dialog-update {
+  width: 50vw;
+  height: 100%;
+  padding: 32px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 55px;
+}
+
+.dialog-form-update {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group-update {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label-update {
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.form-input-update, .form-select-update {
+  padding: 14px;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.button-group-update {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-update {
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.btn-close-update {
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.custom-dialog-delete {
+  width: 50vw;
+  padding: 32px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.dialog-form-delete {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.confirmation-text {
+  color: black;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.button-group-delete {
+  display: flex;
+  gap: 24px;
+}
+
+.btn-delete, .btn-cancel {
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
