@@ -10,12 +10,6 @@ Execute ng generate component component-name para gerar um novo componente. Voc�
 # Build
 Execute ng build para construir o projeto. Os artefatos de build serão armazenados no diretório dist/.
 
-# Execução de Testes Unitários
-Execute ng test para executar os testes unitários via Karma.
-
-# Execução de Testes de Ponta a Ponta
-Execute ng e2e para executar os testes de ponta a ponta via uma plataforma de sua escolha. Para usar este comando, você precisa primeiro adicionar um pacote que implemente as capacidades de teste de ponta a ponta.
-
 # Mais Ajuda
 Para obter mais ajuda sobre o Angular CLI, use ng help ou consulte a página de Visão Geral e Referência de Comandos do Angular CLI.
 
