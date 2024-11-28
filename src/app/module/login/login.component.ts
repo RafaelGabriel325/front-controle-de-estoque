@@ -7,7 +7,7 @@ import {AutenticacaoService} from "../../service/autenticacao.service";
 import {CommonModule} from "@angular/common";
 import {HttpClientModule} from "@angular/common/http";
 import IToken from "../../interface/IToken";
-import {PrimeNgImportModule} from "../../shared/ prime-ng-import.module";
+import {PrimeNgImportModule} from "../../shared/prime-ng-import.module";
 
 @Component({
   selector: 'app-login',

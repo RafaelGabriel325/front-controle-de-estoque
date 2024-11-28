@@ -5,7 +5,7 @@ import {AppHeaderComponent} from "./layout/app-header/app-header/app-header.comp
 import {AppFooterComponent} from "./layout/app-footer/app-footer/app-footer.component";
 import {HttpClientModule} from "@angular/common/http";
 import {PrimeNGConfig} from "primeng/api";
-import {PrimeNgImportModule} from "./shared/ prime-ng-import.module";
+import {PrimeNgImportModule} from "./shared/prime-ng-import.module";
 
 @Component({
   selector: 'app-root',

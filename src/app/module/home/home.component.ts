@@ -10,7 +10,7 @@ import ITipoProduto from '../../interface/ITipoProduto';
 import { PessoaService } from '../../service/pessoa.service';
 import IPessoa from '../../interface/IPessoa';
 import { AutenticacaoService } from '../../service/autenticacao.service';
-import {PrimeNgImportModule} from "../../shared/ prime-ng-import.module";
+import {PrimeNgImportModule} from "../../shared/prime-ng-import.module";
 
 
 @Component({

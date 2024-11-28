@@ -6,7 +6,7 @@ import { IUser } from "../../interface/IUser";
 import { CommonModule } from "@angular/common";
 import { HttpClientModule } from "@angular/common/http";
 import { v4 as uuidv4 } from 'uuid';
-import {PrimeNgImportModule} from "../../shared/ prime-ng-import.module";
+import {PrimeNgImportModule} from "../../shared/prime-ng-import.module";
 
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {PrimeNgImportModule} from "../../shared/ prime-ng-import.module";
+import {PrimeNgImportModule} from "../../shared/prime-ng-import.module";
 
 @Component({
   selector: 'app-nao-encontrado',
